@@ -1,0 +1,29 @@
+         .navbar-wrapper {
+            position: relative;
+        }
+
+
+
+        .navbar {
+            position: absolute;
+            top: 0;
+            z-index: 10;
+            background: rgb(0, 0, 0);
+            opacity: 0.85;
+            width: 100%;
+            position: sticky;
+            background: linear-gradient(45deg, red, #c800ff);
+        }
+
+        .nav-link.active {
+            border-bottom: 3px solid rgb(220, 208, 208);
+        }
+
+        .navbar-light .navbar-toggler {
+            color: #f546dd;
+            border-color: #d7ddee;
+        }
+
+        .navbar-light .navbar-toggler-icon {
+            filter: invert(1);
+        }
